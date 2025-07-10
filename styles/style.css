@@ -11,6 +11,9 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+body{
+    background-color: rgb(244, 244, 252);
+}
 
 /* header */
 header{
@@ -205,4 +208,46 @@ nav a{
     margin-top: 50px;
     align-items: center;
     justify-content: center;
+}
+/* focus section */
+.focus-titel{
+    color: #000000;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.focus-description{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    margin-top: 0;
+
+}
+.focus-button{
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+.ad-img{
+    border-radius: 48px;
+    display: block;
+    margin: auto;
+    ,margin-top: 0;
+    
+}
+.ready-to-focus{
+    align-items: center;
+
+}
+.focus-text{
+    text-align: center;
+}
+.ready-to-focus{
+    background-color: #FFFFFF;
+    padding: 71px 150px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 92px;
 }
