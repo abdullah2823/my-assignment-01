@@ -99,3 +99,39 @@ nav a{
     width: 403px;
     height: 328px;
 }
+/* productive section */
+.productive-section{
+    text-align: center;
+    background-color: rgba(78, 71, 255, 0.1);
+    margin-left: 140px;
+    margin-right: 160px;
+    border-radius: 20px;
+    padding: 50px 142px;
+    margin-bottom: 137px;
+    
+}
+.productive-titel{
+    font-size: 38px;
+    font-weight: bold;
+    color: #252432;
+    margin-bottom: 0;
+}
+.productive-datas{
+    display: flex;
+    justify-content: center;
+    gap: 158px;
+    margin-top: 0;
+}
+
+.pd-data-titel{
+    font-size: 80px;
+    font-weight: 800;
+    color: #4E47FF;
+    margin-bottom: 0;
+}
+.pd-data-name{
+    font-size: 20px;
+    font-weight: 400;
+    color: #000000;
+    margin-top: 0;
+}
