@@ -251,3 +251,60 @@ nav a{
     margin-right: 150px;
     margin-bottom: 92px;
 }
+/* touch-section */
+.touch-section{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 150px;
+    align-items: center;
+    gap: 115px;
+}
+.titel-touch{
+    font-size: 97px;
+    font-weight: bold;
+}
+.touch-form{
+    display: block;
+}
+.touch-box{
+    display: block;
+    margin-top: 19px;
+}
+
+.massage-name{
+    font-size: 18px;
+    font-weight: 600;
+    color: #000000;
+    margin-bottom: 40px;
+    margin-top: 0;
+}
+.box-touch{
+    border-radius:20px;
+    width: 497px;
+    height: 70px;
+    background-color: #FFFFFF;
+    border: 1px solid #D6DDED;
+    padding: 20px;
+}
+.message-box{
+    width: 497px;
+    height: 135px;
+    padding: 20px;
+    border: 1px solid #D6DDED;
+    background-color: #FFFFFF;
+    border-radius:20px;
+
+}
+.box-touch-massage{
+    border-radius:20px;
+    width: 450px;
+    height: 70px;
+    background-color: #FFFFFF;
+    border: 1px solid #D6DDED;
+    padding: 20px;
+
+
+}
+.button-form{
+    margin-top: 19px;
+}
