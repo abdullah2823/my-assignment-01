@@ -258,6 +258,9 @@ nav a{
     margin: 0 150px;
     align-items: center;
     gap: 115px;
+    padding-top: 71px;
+    padding-bottom: 71px;
+    margin-bottom: 79px;
 }
 .titel-touch{
     font-size: 97px;
@@ -298,7 +301,7 @@ nav a{
 .box-touch-massage{
     border-radius:20px;
     width: 450px;
-    height: 70px;
+    height: 30px;
     background-color: #FFFFFF;
     border: 1px solid #D6DDED;
     padding: 20px;
@@ -307,4 +310,37 @@ nav a{
 }
 .button-form{
     margin-top: 19px;
+}
+/* footer */
+footer{
+    text-align: center;
+    background-color: #FFFFFF;
+    /* margin: 104px 455px; */
+    padding: 104px 455px;
+}
+
+.footer-logo{
+    font-size: 100px;
+    font-weight: 900;
+    color: #4E47FF;
+    margin-bottom: 0;
+}
+.footer-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: #8987A1;
+    margin-top: 2px;
+}
+.footer-tag{
+    text-decoration: none;
+    color: #8987A1;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+.tag-item{
+    text-decoration: none;
+    gap: 48px;
+    
+    
 }
