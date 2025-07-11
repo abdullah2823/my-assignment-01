@@ -237,10 +237,6 @@ nav a{
     margin-top: 0;
     
 }
-.ready-to-focus{
-    align-items: center;
-
-}
 .focus-text{
     text-align: center;
 }
@@ -250,6 +246,8 @@ nav a{
     margin-left: 150px;
     margin-right: 150px;
     margin-bottom: 92px;
+    align-items: center;
+
 }
 /* touch-section */
 .touch-section{
