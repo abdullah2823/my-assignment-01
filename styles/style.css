@@ -234,7 +234,7 @@ nav a{
     border-radius: 48px;
     display: block;
     margin: auto;
-    ,margin-top: 0;
+    margin-top: 0;
     
 }
 .ready-to-focus{
@@ -255,12 +255,11 @@ nav a{
 .touch-section{
     display: flex;
     justify-content: space-between;
-    margin: 0 150px;
     align-items: center;
     gap: 115px;
-    padding-top: 71px;
-    padding-bottom: 71px;
-    margin-bottom: 79px;
+    padding: 71px 150px;
+    align-items: center;
+    margin-bottom: 14px;
 }
 .titel-touch{
     font-size: 97px;
@@ -268,27 +267,38 @@ nav a{
 }
 .touch-form{
     display: block;
+    max-width: 497px;
 }
 .touch-box{
-    display: block;
+    display: flex;
+    flex-direction: column;
     margin-top: 19px;
 }
 
-.massage-name{
+
+ label{
+    margin-bottom: 10px;
     font-size: 18px;
     font-weight: 600;
-    color: #000000;
-    margin-bottom: 40px;
-    margin-top: 0;
-}
-.box-touch{
-    border-radius:20px;
-    width: 497px;
-    height: 70px;
-    background-color: #FFFFFF;
+ }
+ input[type="text"],input[type="email"]{
+    padding: 20px 32px 20px;
+    padding-right: 225px;
+    border-radius: 10px;
     border: 1px solid #D6DDED;
-    padding: 20px;
-}
+    margin-bottom: 20px;
+    font-size: 20px;
+
+ }
+ textarea{
+    padding-top: 20px;
+    padding-left: 32px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 1px solid #D6DDED;
+    color: rgba(0, 0, 0, 0.48);
+ }
+
 .message-box{
     width: 497px;
     height: 135px;
@@ -310,12 +320,13 @@ nav a{
 }
 .button-form{
     margin-top: 19px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 /* footer */
 footer{
     text-align: center;
     background-color: #FFFFFF;
-    /* margin: 104px 455px; */
     padding: 104px 455px;
 }
 
@@ -342,7 +353,4 @@ footer{
 }
 .tag-item{
     text-decoration: none;
-    
-    
-    
 }
