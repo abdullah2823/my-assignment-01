@@ -170,6 +170,10 @@ nav a{
     max-width: 366px;
     padding: 24px 24px;
 }
+.review-body{
+    text-align: left;
+    
+}
 
 .review-block{
     display: flex;
@@ -182,6 +186,9 @@ nav a{
     height:40px;
     border-radius: 50px;
     
+}
+.profile-id{
+    text-align: left;
 }
 .pro-id-titel{
     font-size: 16px;
